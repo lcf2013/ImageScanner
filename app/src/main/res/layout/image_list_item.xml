@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        android:background="@drawable/item_selector"
+        >
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/avatar"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginRight="16dp"/>
+
+    <EditText
+        android:id="@+id/title_ed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:textAppearance="?attr/textAppearanceListItem"/>
+    </LinearLayout>
+    <View
+        android:id="@+id/cutLine"
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="@drawable/bg_cut_line"
+        >
+
+
+    </View>
+</LinearLayout>
